@@ -124,6 +124,7 @@ To-Do
   * complete content for dictionaries
   * duplicate function records not to include the prototype of parameters (can
   save time when knowing what to type for parameters)
+  * move the type of parameters to description (or add extra such record)
 
 Contributions
 -------------
@@ -140,4 +141,5 @@ Copyright
 ---------
 
 (c) 2014 Daniel-Constantin Mierla (asipto.com)
+
 License: GPLv2
