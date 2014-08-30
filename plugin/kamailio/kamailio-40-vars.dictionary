@@ -1,0 +1,226 @@
+$$		@@-- [var] Pseudo-variable marker
+$ad		@@-- [var] Auth username domain
+$adu		@@-- [var] Auth Digest URI
+$ai		@@-- [var] URI inP-Asserted-Identity header
+$ar		@@-- [var] Auth realm
+$Au		@@-- [var] Acc username
+$au		@@-- [var] Auth username user
+$aU		@@-- [var] Auth whole username
+$avp(name)		@@-- [var] AVPs
+$bF		@@-- [var] Branch flags
+$bf		@@-- [var] Branch flags
+$BM_time_diff		@@-- [var] Benchmark module Pseudo-Variables
+$bR		@@-- [var] Request's all branches
+$br		@@-- [var] Request's first branch
+$branch(name)		@@-- [var] Branch attributes
+$bs		@@-- [var] Body size
+$C(xy)		@@-- [var] Foreground and background colors
+$cfg(key)		@@-- [var] Config File Attributes
+$ci		@@-- [var] Call-Id
+$cl		@@-- [var] Content-Length
+$cnt(pv)		@@-- [var] Count number of pvs
+$conid		@@-- [var] TCP Connection ID
+$cs		@@-- [var] CSeq
+$ct		@@-- [var] Contact header
+$cT		@@-- [var] Content-Type
+$dd		@@-- [var] Domain of destination URI
+$di		@@-- [var] Diversion header URI
+$dic		@@-- [var] Diversion "counter" parameter
+$dip		@@-- [var] Diversion "privacy" parameter
+$dir		@@-- [var] Diversion "reason" parameter
+$dlg(attr)		@@-- [var] Dialog module Pseudo-Variables
+$dlg_ctx(attr)		@@-- [var] Dialog module Pseudo-Variables
+$dlg_var(key)		@@-- [var] Dialog module Pseudo-Variables
+$dns(pvid=>key)		@@-- [var] DNS Query Result
+$dp		@@-- [var] Port of destination URI
+$dP		@@-- [var] Transport protocol of destination URI
+$ds		@@-- [var] Destination set
+$du		@@-- [var] Destination URI
+$fd		@@-- [var] From URI domain
+$fn		@@-- [var] From display name
+$fs		@@-- [var] Forced socket
+$ft		@@-- [var] From tag
+$fu		@@-- [var] From URI
+$fU		@@-- [var] From URI username
+$gip(pvc=>key)		@@-- [var] GeoIP module Pseudo-Variables
+$hdr(name)		@@-- [var] Headers
+$HN(key)		@@-- [var] Hostname details
+$hu		@@-- [var] XHTTP module Pseudo-Variables
+$mb		@@-- [var] SIP message buffer
+$mcdec(key)		@@-- [var] Memcached module Pseudo-Variables
+$mcinc(key)		@@-- [var] Memcached module Pseudo-Variables
+$mct(key)		@@-- [var] Memcached module Pseudo-Variables
+$mct(key=>expiry)		@@-- [var] Memcached module Pseudo-Variables
+$mf		@@-- [var] Flags
+$mF		@@-- [var] Flags in hexadecimal
+$mi		@@-- [var] SIP message id
+$ml		@@-- [var] SIP message length
+$mqk(q)		@@-- [var] MQueue module Pseudo-Variables
+$mqv(q)		@@-- [var] MQueue module Pseudo-Variables
+$msrp(body)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(bodylen)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(buf)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(buflen)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(code)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(conid)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(crthop)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(firsthop)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(hdrs)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(lasthop)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(method)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(msgid)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(nexthop)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(nexthops)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(prevhop)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(prevhops)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(reason)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(sessid)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(srcaddr)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(srcsock)		@@-- [var] MSRP Module Pseudo Variables
+$msrp(transid)		@@-- [var] MSRP Module Pseudo Variables
+$mt		@@-- [var] SIP Message Type
+$nh(key)		@@-- [var] Next hop address
+$od		@@-- [var] Domain original R-URI
+$op		@@-- [var] Port in original R-URI
+$oP		@@-- [var] Protocol of original R-URI
+$ou		@@-- [var] Original R-URI
+$oU		@@-- [var] Username in original R-URI
+$pd		@@-- [var] Domain in P-Preferred-Identity header URI
+$pn		@@-- [var] Display Name in P-Preferred-Identity header
+$pp		@@-- [var] Process id
+$pr		@@-- [var] Protocol of received message
+$pu		@@-- [var] URI in P-Preferred-Identity header
+$pU		@@-- [var] User in P-Preferred-Identity header URI
+$rb		@@-- [var] Body of request/reply
+$rc		@@-- [var] Returned code
+$rd		@@-- [var] Domain in R-URI
+$re		@@-- [var] Remote-Party-ID header URI
+$Ri		@@-- [var] Received IP address
+$rm		@@-- [var] SIP method
+$rmid		@@-- [var] SIP Method ID
+$route_uri		@@-- [var] URI in first Route header
+$rp		@@-- [var] Port in R-URI
+$rP		@@-- [var] Protocol of R-URI
+$Rp		@@-- [var] Received port
+$rr		@@-- [var] SIP reply reason phrase
+$rr_count		@@-- [var] Nathelper module Pseudo-Variables
+$rr_top_count		@@-- [var] Nathelper module Pseudo-Variables
+$rs		@@-- [var] SIP reply code
+$rt		@@-- [var] Refer-to URI
+$ru		@@-- [var] Request URI
+$rU		@@-- [var] Username in R-URI
+$ruid		@@-- [var] Record internal Unique ID
+$rz		@@-- [var] URI Scheme of R-URI
+$sel(name)		@@-- [var] Selects
+$sF		@@-- [var] Script flags
+$sf		@@-- [var] Script flags
+$sht(ht=>name)		@@-- [var] HTable variable
+$sht(htable=>key)		@@-- [var] HTable module Pseudo-Variables
+$shtcn(htable=>exp)		@@-- [var] HTable module Pseudo-Variables
+$shtcv(htable=>exp)		@@-- [var] HTable module Pseudo-Variables
+$shtdec(htable=>key)		@@-- [var] HTable module Pseudo-Variables
+$shtex(htable=>key)		@@-- [var] HTable module Pseudo-Variables
+$shtinc(htable=>key)		@@-- [var] HTable module Pseudo-Variables
+$shv(name)		@@-- [var] Shared memory variables
+$si		@@-- [var] Source IP address
+$sipt(called_party_number.nai)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(called_party_number.nature_of_address)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(calling_party_category)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(calling_party_number.nature_of_address)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(calling_party_number.presentation)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(calling_party_number.screening)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(cpc)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(event_info)		@@-- [var] SIPT module Pseudo-Variables
+$sipt(hop_counter)		@@-- [var] SIPT module Pseudo-Variables
+$sipt.(calling_party_number.nai)		@@-- [var] SIPT module Pseudo-Variables
+$sipt_called_party_nai		@@-- [var] SIPT module Pseudo-Variables
+$sipt_calling_party_nai		@@-- [var] SIPT module Pseudo-Variables
+$sipt_cpc		@@-- [var] SIPT module Pseudo-Variables
+$sipt_hop_counter		@@-- [var] SIPT module Pseudo-Variables
+$sipt_presentation		@@-- [var] SIPT module Pseudo-Variables
+$sipt_screening		@@-- [var] SIPT module Pseudo-Variables
+$snd(name)		@@-- [var] Send Address Attributes
+$sndfrom(name)		@@-- [var] Send Address Attributes
+$sndto(name)		@@-- [var] Send Address Attributes
+$sp		@@-- [var] Source port
+$stat(name)		@@-- [var] Statistics
+$T(name)		@@-- [var] TMX module Pseudo-Variables
+$Tb		@@-- [var] Startup timestamp
+$td		@@-- [var] To URI Domain
+$Tf		@@-- [var] String formatted time - cached
+$TF		@@-- [var] String formatted time - current
+$time(hour)		@@-- [var] Broken-down time
+$time(isdst)		@@-- [var] Broken-down time
+$time(mday)		@@-- [var] Broken-down time
+$time(min)		@@-- [var] Broken-down time
+$time(mon)		@@-- [var] Broken-down time
+$time(name)		@@-- [var] Broken-down time
+$time(sec)		@@-- [var] Broken-down time
+$time(wday)		@@-- [var] Broken-down time
+$time(yday)		@@-- [var] Broken-down time
+$time(year)		@@-- [var] Broken-down time
+$timef(format)		@@-- [var] Strftime Formatted Time
+$tls_cipher_bits		@@-- [var] TLS module Pseudo-Variables
+$tls_cipher_info		@@-- [var] TLS module Pseudo-Variables
+$tls_description		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_cn		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_country		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_locality		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_organization		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_state		@@-- [var] TLS module Pseudo-Variables
+$tls_my_issuer_unit		@@-- [var] TLS module Pseudo-Variables
+$tls_my_san_email		@@-- [var] TLS module Pseudo-Variables
+$tls_my_san_hostname		@@-- [var] TLS module Pseudo-Variables
+$tls_my_san_ip		@@-- [var] TLS module Pseudo-Variables
+$tls_my_san_uri		@@-- [var] TLS module Pseudo-Variables
+$tls_my_serial		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_cn		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_country		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_locality		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_organization		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_state		@@-- [var] TLS module Pseudo-Variables
+$tls_my_subject_unit		@@-- [var] TLS module Pseudo-Variables
+$tls_my_version		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_cn		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_country		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_locality		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_organization		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_state		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_issuer_unit		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_san_email		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_san_hostname		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_san_ip		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_san_uri		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_serial		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_cn		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_country		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_locality		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_organization		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_state		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_subject_unit		@@-- [var] TLS module Pseudo-Variables
+$tls_peer_version		@@-- [var] TLS module Pseudo-Variables
+$tls_version		@@-- [var] TLS module Pseudo-Variables
+$tn		@@-- [var] To display name
+$Ts		@@-- [var] Unix time stamp - cached
+$TS		@@-- [var] Unix time stamp - current
+$tt		@@-- [var] To tag
+$tu		@@-- [var] To URI
+$tU		@@-- [var] To URI Username
+$TV(name)		@@-- [var] Time value
+$T_branch(name))		@@-- [var] TMX module Pseudo-Variables
+$T_branch_idx		@@-- [var] TMX module Pseudo-Variables
+$T_inv(pv)		@@-- [var] TMX module Pseudo-Variables
+$T_reply_code		@@-- [var] TMX module Pseudo-Variables
+$T_reply_ruid		@@-- [var] TMX module Pseudo-Variables
+$T_req(pv)		@@-- [var] TMX module Pseudo-Variables
+$T_rpl(pv)		@@-- [var] TMX module Pseudo-Variables
+$ua		@@-- [var] User agent header
+$uac_req(key)		@@-- [var] UAC module Pseudo-Variables
+$var(name)		@@-- [var] Private memory variables
+$xavp(name)		@@-- [var] XAVPs
+$xml(name=>spec)		@@-- [var] XMLOPS Pseudo-Variables
+$_s(format)		@@-- [var] Evaluate dynamic format
