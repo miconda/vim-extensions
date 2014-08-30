@@ -44,12 +44,15 @@ Usage
 While editing the Kamailio configuration file, use **CTRL+x CTRL+u** to
 trigger auto-complete.
 
-Examples (parenthesis are used to surround control key sequences, they must
-not be typed):
+Examples
+--------
 
-  * t_r(CTRL+x CTRL-u) -- pops up auto-complete box with all tokens starting
+(Note: parenthesis are used to surround control key sequences, they must
+not be typed)
+
+  * t_r(CTRL+x CTRL+u) -- pops up auto-complete box with all tokens starting
   with 't_r', such as t_relay(), t_reply(...), ...
-  * $t(CTRL+x CTRL-u) -- pops up auto-complete box with all tokens starting
+  * $t(CTRL+x CTRL+u) -- pops up auto-complete box with all tokens starting
   with '$t', practically listing the config variables starting with 't', such
   as $tu, $time(name), ...
 
@@ -118,8 +121,27 @@ xlogl([ [facility,] level,] format)		@@-- [func] (xlog)
 
 This dictionary record gives the prototype of xlog function from xlog module.
 
+Remarks
+-------
+
+  * the records are in the order they are matched in dictionary files, thus
+  it may require to scroll down in the auto-complete box to find desired
+  token
+  * it is not a global ordering, allowing to structure the view in
+  auto-complete box based on dictionary file names and content
+  * content in dictionary files is typically ordered, with default dictionary
+  file, first are module functions, then config variables, module parameters
+  and core elements
+  * to get all the records ordered, merge all dictionary files in one (e.g.,
+  kamailio-all.dictionary) and use **sort** command line tool to sort the
+  records inside it. Then remove old dictionary files.
+  * not doing sorting at runtim was done for performance reasons, although
+  in the future can be added as config option for plugin
+
 To-Do
 -----
+
+More like a whish list, no timelines committed for completing the items.
 
   * complete content for dictionaries
   * duplicate function records not to include the prototype of parameters (can
