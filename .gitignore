@@ -1,3 +1,9 @@
+#Temporary files
+.*.swp
+.*.swo
+*~
+.#*
+
 # Object files
 *.o
 *.ko
