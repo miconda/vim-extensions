@@ -16,8 +16,12 @@ For more details see:
 
 Install:
 
+```
   make install-kamailio-plugin
+```
 
 Uninstall:
 
+```
   make rm-kamailio-plugin
+```
