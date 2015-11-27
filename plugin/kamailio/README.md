@@ -4,6 +4,10 @@ Basic Autocomplete VIM Plugin for Kamailio Configuration
 Implementation of a custom auto-complete function for Kamailio configuration
 file.
 
+See the next blog post for more details and screenshot:
+
+  * http://www.kamailio.org/w/2014/09/kamailio-cfg-auto-complete-plugin-for-vim/
+
 Installation
 ------------
 
